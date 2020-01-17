@@ -3,10 +3,12 @@
 {% include head.html %}
 
   <body>
+     <div style="text-align: center">
     {% include header.html %}
-    <img src="{{page.image}}" class="image-titre"/>
     <h1> {{ page.classement }}  <i>{{ page.titre }}</i></h1>
     <h3>  {{ page.synopsis }} </h3>
+    <img src="{{page.image}}" class="image-titre"/>
+  </div>
     {{ content }}
 {% include footer.html %}
   </body>

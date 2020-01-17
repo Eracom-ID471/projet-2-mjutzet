@@ -4,10 +4,12 @@
   <body>
     {% include header.html %}
     {% for serie in site.series %}
-    <p>{{ serie.short_description }}</p>
-    <img src="{{serie.image}}" width="250" />
     <a href="{{ serie.url }}">
       <h1 class="image-titre">{{ serie.classement }}  {{ serie.titre }}</h1>
+    </a>
+    <img src="{{serie.image}}" width="250" />
+
+
       </a>
     {% endfor %}
 

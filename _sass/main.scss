@@ -6,10 +6,12 @@ body {
   background: #000000;
   color: $bodyColor;
   font-family: $bodyFont;
+  text-align: center
 }
 
 .j-p {
   text-transform: uppercase;
+  text-align: center
 }
 
 .image-titre {
@@ -17,6 +19,7 @@ body {
   max-width: 400px;
   width: 100%;
   text-align: center
+  margin-top: 25px;
 }
 
 footer {
@@ -25,8 +28,21 @@ footer {
  header {
    background-color: red;
 
+
  }
 p,h1,image-titre {
+  text-align: center
+
+
+}
+h3, h1, p {
+  color: #ffffff
+  text-align: center
+
+
+}
+h1.image-titre {
+
   text-align: center
 
 }
